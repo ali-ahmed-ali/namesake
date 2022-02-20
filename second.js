@@ -374,5 +374,6 @@ async function createPdf(input, output)
         console.log(err);
     }
 }
+
 createPdf('formPdf/jud-affidavit-of-indigency-821.pdf','jud-affidavit-of-indigency-821-output.pdf');
 
